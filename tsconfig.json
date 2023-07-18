@@ -20,6 +20,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", ".eslintrc.cjs"],
+  "exclude": ["node_modules", "husky", "public"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
